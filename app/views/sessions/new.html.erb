@@ -1,0 +1,10 @@
+<div class="jumbotron">
+    <h2>Login</h2>
+</div>
+
+<%= form_tag '/login' do %>
+  <input type="hidden" name="next" value="<%= params[:next] %>" />
+  Email: <%= text_field_tag :email %>
+  Password: <%= password_field_tag :password %>
+  <%= submit_tag "Submit" %>
+<% end %>

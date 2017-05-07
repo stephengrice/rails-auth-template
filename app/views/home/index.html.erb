@@ -1,0 +1,19 @@
+<h1>Home - Rails Authentication Template</h1>
+
+
+<p>The following routes are available:</p>
+<ul>
+   <li><%= link_to 'GET /login', login_path %></li>
+  <li>POST /login</li>
+  <li><%= link_to 'GET /logout', logout_path %></li>
+ 
+  <li><%= link_to 'GET /register', register_path %></li>
+  <li>POST /users</li>
+</ul>
+
+
+<p>Helper methods:</p>
+<ul>
+  <li>current_user</li>
+  <li>authorize (use with before_action in controller)</li>
+</ul>
