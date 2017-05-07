@@ -1,24 +1,10 @@
-# README
+# rails-auth-template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone this project to get a quick start with Rails authentication.
 
-Things you may want to cover:
+I made this for myself because I have gone through [Greg Buckner's helpful instructions](https://gist.github.com/thebucknerlife/10090014) way too many times. Those are the directions I used to create this project.
 
-* Ruby version
+Mr. Buckner provides a [boilerplate](https://github.com/thebucknerlife/auth_boilerplate) too, but I like to do things myself. His boilerplate is better documented than this one, so check it out.
 
-* System dependencies
+This project uses Rails 5.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
